@@ -1,0 +1,1712 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Linee guida per esercenti &mdash; Guida 18app 1.0 documentazione</title>
+               
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />   
+    <link rel="top" title="Guida 18app 1.0 documentazione" href="index.html" />
+    <link rel="next" title="Linee guida per la fatturazione" href="linee-guida-fatturazione.html" />
+    <link rel="prev" title="Condizioni d’uso" href="cond-gen-esercenti.html" />  
+    <script src="_static/js/modernizr.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600" rel="stylesheet">
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+     
+    <div class="wy-grid-for-nav">
+
+        
+        <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+            <div class="wy-side-scroll">
+                <div class="wy-side-nav-search">
+                    
+
+                    <div class="branding clearfix">
+                        <div class="branding--logo">
+                            <a href="https://docs.developers.italia.it">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+                              <g fill="none" fill-rule="evenodd">
+                                <path d="M0 0h160v160H0z"/>
+                                <path fill="#fff" d="M58.28 131.956V49.918h21.5v82.184h-21.5v-.146zm84.435-63.353h-19.65v33.72c0 3.358.143 5.547.285 7.007.143 1.314.712 2.482 1.71 3.504.996 1.02 2.562 1.46 4.698 1.46l12.245-.293.997 17.52c-7.12 1.606-12.673 2.48-16.375 2.48-9.682 0-16.232-2.19-19.65-6.713-3.56-4.38-5.267-12.554-5.267-24.524V27h21.5v22.772h19.65v18.83h-.143zM25.957 74.88c-3.702 0-6.834-1.314-9.255-3.94C14.282 68.31 13 65.1 13 61.303c0-3.795 1.28-7.007 3.56-9.634 2.42-2.63 5.553-3.798 9.255-3.798 3.702 0 6.835 1.314 9.255 3.942 2.42 2.627 3.56 5.84 3.56 9.78 0 3.942-1.14 7.007-3.56 9.635-2.278 2.335-5.268 3.65-9.113 3.65z"/>
+                              </g>
+                            </svg>
+                          </a>
+                        </div>
+                        <div class="branding--content">
+                            <h2 class="branding--title">
+                                <span class="branding--title--root">/ <a href="https://developers.italia.it">developers</a></span>
+                                <span class="branding--title--branch">/ <a href="https://docs.developers.italia.it">docs</a></span>
+                            </h2>
+                        </div>
+                        <h3 class="branding--tagline">La community italiana degli sviluppatori di servizi pubblici</h3>
+                    </div>
+
+            
+            
+            <h1 class="project-title"><a href="index.html" class="icon icon-home"> Guida 18app </a></h1>
+            
+
+
+                     
+                    
+                    <div class="version">1</div>
+                      
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div> 
+                </div>
+
+                <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                          <ul>
+<li class="toctree-l1"><a class="reference internal" href="faq-diciottenni.html">Domande frequenti</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cond-gen-diciottenni.html">Condizioni d&#8217;uso</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="faq-esercenti.html">Domande frequenti</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cond-gen-esercenti.html">Condizioni d&#8217;uso</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Linee guida per esercenti</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#registrazione-al-servizio">1. Registrazione al servizio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#vendita">2. Vendita</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#controllo-e-riscossione-dei-buoni-d-acquisto">3. Controllo e riscossione dei buoni d&#8217;acquisto</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#verifica-in-caso-di-vendita-nell-esercizio-fisico">Verifica in caso di vendita nell&#8217;esercizio fisico</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#verifica-in-caso-di-vendita-online">Verifica in caso di vendita online</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fatturazione">4. Fatturazione</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#allegato-1">Allegato 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#servizio-web-per-verifica-voucher-degli-esercenti">Servizio Web per verifica voucher degli esercenti</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modalita-di-autenticazione">Modalità di autenticazione</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#codici-di-errore">Codici di errore</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#esempi-di-request-response">Esempi di request/response</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#wsdl-verificavoucher-wsdl">WSDL VerificaVoucher.wsdl</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="linee-guida-fatturazione.html">Linee guida per la fatturazione</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="info-privacy.html">Informativa sulla privacy</a></li>
+</ul>
+  
+                </div>
+            </div>
+        </nav>
+
+        <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+            
+            <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+                
+                <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+                <a href="index.html">Guida 18app</a> 
+            </nav>
+
+
+            
+            <div class="wy-nav-content">
+                <div class="rst-content">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Linee guida per esercenti</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/linee-guida-esercenti.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+                    <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+                        <div itemprop="articleBody">
+                            
+  <div class="section" id="linee-guida-per-esercenti">
+<h1>Linee guida per esercenti<a class="headerlink" href="#linee-guida-per-esercenti" title="Link a questa intestazione">¶</a></h1>
+<p>La Legge n. 232 dell&#8216;11 dicembre 2016 assegna un bonus di 500 euro ai cittadini
+residenti in Italia (in possesso, ove previsto, di permesso di soggiorno in
+corso di validità) che compiono diciotto anni nel 2017.</p>
+<p>La gestione del bonus può avvenire tramite qualunque tipo device
+(smartphone, tablet, computer) connesso ad Internet, sia da parte
+dei diciottenni che da parte degli esercenti (soggetti pubblici o
+privati) presso i quali acquistare i prodotti previsti riconducibili
+alle seguenti categorie: cinema, musica e concerti, eventi
+culturali, libri, musei, monumenti, parchi naturali ed aree
+archeologiche, teatro e danza, corsi di musica, di teatro o di
+lingua straniera.</p>
+<p>In particolare, nella web app gli esercenti avranno a disposizione
+le seguenti funzionalità:</p>
+<ol class="arabic simple">
+<li>registrazione al servizio;</li>
+<li>vendita attraverso esercizio fisico oppure on line</li>
+<li>controllo e riscossione dei buoni di acquisto</li>
+<li>fatturazione</li>
+</ol>
+<div class="section" id="registrazione-al-servizio">
+<h2>1. Registrazione al servizio<a class="headerlink" href="#registrazione-al-servizio" title="Link a questa intestazione">¶</a></h2>
+<p>&#8220;18app&#8221; può essere utilizzato solo dagli esercenti con credenziali di accesso ai Servizi Telematici dell&#8217;Agenzia delle Entrate e che hanno incaricato dei soggetti ad operare per proprio conto. Gli esercenti si devono, quindi, obbligatoriamente registrare alla web app per poter vendere i propri prodotti.</p>
+<p>Le fasi della registrazione:</p>
+<ul class="simple">
+<li><strong>entro il 30 giugno 2018</strong> registrazione alla web app con
+indicazione dei dati generali dell&#8217;esercente (dati anagrafici, di
+residenza, codice ATECO, recapiti telefonici, mail ed eventuale sito
+internet, accettazione della normativa vigente).</li>
+<li><strong>entro il 30 giugno 2018</strong> indicazione di categorie di prodotto e
+prodotti vendibili sia nel proprio esercizio fisico che in quello
+online.</li>
+</ul>
+<p>Al termine della registrazione, il sistema assegnerà automaticamente
+a ciascun esercente un &#8220;codice esercente&#8221; di 5 caratteri
+alfanumerici da utilizzare in fase di riscossione dei buoni. Gli
+esercenti possono modificare le informazioni registrate ogni qual
+volta vorranno (ad esempio: variazione dati,
+inserimento/cancellazione dei punti vendita fisici).</p>
+</div>
+<div class="section" id="vendita">
+<h2>2. Vendita<a class="headerlink" href="#vendita" title="Link a questa intestazione">¶</a></h2>
+<p>La web app mette a disposizione degli esercenti 2 tipologie di vendita:
+nell&#8217;esercizio fisico oppure on-line (in fase di registrazione è possibile
+indicare l&#8217;utilizzo anche di entrambe le tipologie). In caso di vendita
+nell&#8217;esercizio fisico, l&#8217;esercente può indicare tutti i punti vendita dove i
+diciottenni potranno esibire i &#8220;buoni&#8221; di spesa con l&#8217;indicazione delle
+categorie di prodotto e dei prodotti disponibili. I punti vendita potranno
+essere geolocalizzati nell&#8217;applicazione dei 18enni.</p>
+<p>In caso di vendita online, l&#8217;esercente dovrà prima dotarsi di un
+certificato da applicare al web-service (<strong>vd. allegato 1</strong>)
+richiamabile dai propri sistemi per la verifica e validazione dei
+buoni di spesa.</p>
+<p>In particolare dovrà:</p>
+<ul class="simple">
+<li>richiedere il certificato in fase di registrazione;</li>
+<li>scaricare il certificato nei propri sistemi;</li>
+<li>verificare l&#8217;istallazione del certificato tramite specifica chiamata
+del web-service, come da indicazioni in allegato1.</li>
+</ul>
+<p>Si precisa che sarà possibile anche per gli esercenti che scelgono
+la vendita presso l&#8217;esercizio fisico scegliere l&#8217;utilizzo delle API
+services che prevedono il download ed istallazione di un certificato
+nei propri sistemi, secondo il procedimento descritto per la vendità
+online.</p>
+<p>Si precisa, inoltre, che per gli esercenti che utilizzeranno il
+web-services per la validazione dei buoni sono previsti i seguenti
+stati di lavorazione legati alle attività di configurazione dei
+propri sistemi in cui dovrà essere istallato il certificato:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="10%" />
+<col width="70%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><ul class="first last simple">
+<li>da attivare</li>
+</ul>
+</td>
+<td>-&gt;</td>
+<td>certificato da scaricare dall&#8217; applicazione 18app</td>
+</tr>
+<tr class="row-even"><td><ul class="first last simple">
+<li>attivabile</li>
+</ul>
+</td>
+<td>-&gt;</td>
+<td>certificato scaricato, ma non istallato</td>
+</tr>
+<tr class="row-odd"><td><ul class="first last simple">
+<li>attivo</li>
+</ul>
+</td>
+<td>-&gt;</td>
+<td>certificato istallato (vd. <a class="reference internal" href="#allegato-1">Allegato 1</a>).</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="controllo-e-riscossione-dei-buoni-d-acquisto">
+<h2>3. Controllo e riscossione dei buoni d&#8217;acquisto<a class="headerlink" href="#controllo-e-riscossione-dei-buoni-d-acquisto" title="Link a questa intestazione">¶</a></h2>
+<p>A partire da settembre 2017 e fino al 31 dicembre 2018 gli esercenti possono
+verificare e riscuotere i buoni generati dai 18enni nati nel 1999 nelle
+funzionalità dell&#8217;applicazione loro dedicate ed identificati da uno specifico
+codice.</p>
+<p>La verifica e validazione è differente in caso di vendita
+nell&#8217;esercizio fisico oppure online.</p>
+<div class="section" id="verifica-in-caso-di-vendita-nell-esercizio-fisico">
+<h3>Verifica in caso di vendita nell&#8217;esercizio fisico<a class="headerlink" href="#verifica-in-caso-di-vendita-nell-esercizio-fisico" title="Link a questa intestazione">¶</a></h3>
+<p>Nell&#8217;area non autenticata della web app gli esercenti possono;</p>
+<ul class="simple">
+<li>indicare il codice del buono esibito dal beneficiario insieme al
+&#8220;codice esercente&#8221;;</li>
+<li>leggere il QR code o il codice a barre del buono.</li>
+</ul>
+<p>In caso di riconoscimento del codice del buono, la web app
+restituisce le informazioni generali dell&#8217;acquisto (categoria di
+prodotto, bene, importo e cognome/nome del beneficiario);
+eventualmente l&#8217;esercente può verificare il beneficiario anche
+tramite l&#8217;esibizione di un documento d&#8217;identità. A questo punto,
+l&#8217;esercente può validare il buono esibito consentendo di &#8220;scalare&#8221;
+l&#8217;importo dal bonus totale di 500 euro del diciottenne.</p>
+</div>
+<div class="section" id="verifica-in-caso-di-vendita-online">
+<h3>Verifica in caso di vendita online<a class="headerlink" href="#verifica-in-caso-di-vendita-online" title="Link a questa intestazione">¶</a></h3>
+<p>Nel proprio sito internet, l&#8217;esercente consente al diciottenne di
+indicare il codice del buono da verificare e riscuotere tramite
+chiamata al web-service le cui specifiche sono reperibili
+nell&#8217;allegato 1.</p>
+<p>Gli esercenti possono visualizzare la lista dei buoni riscossi
+utilizzando eventuali filtri di ricerca per data di generazione del
+buono e/o per tipologia di vendita (esercizio fisico oppure online),
+per categoria di prodotto e per buoni fatturati o data fatturare.</p>
+<p>Nelle liste verrano visualizzate le seguenti informazioni:</p>
+<ul class="simple">
+<li>categoria di prodotto</li>
+<li>dettagli del prodotto acquistato (tipologia ed esercente/punto
+vendita)</li>
+<li>identificativo del buono</li>
+<li>identificativo della fattura elettronica in cui è stato indicato il
+bene acquistato</li>
+<li>informazione sull&#8217;eventuale download della lista esportabile in
+formato .csv.</li>
+</ul>
+<p>Le liste visualizzate potranno essere scaricate in formato .csv per facilitare
+la preparazione della fattura elettronica.</p>
+<p>Nella &#8220;lista dei buoni&#8221;, resa disponibile nella web app 18app, gli
+esercenti possono, inoltre, verificare se il numero di buoni
+convalidati coincide con quello delle fatture.</p>
+</div>
+</div>
+<div class="section" id="fatturazione">
+<h2>4. Fatturazione<a class="headerlink" href="#fatturazione" title="Link a questa intestazione">¶</a></h2>
+<p>Agli esercenti viene riconosciuto un credito per ogni buono riscosso da dichiarare in sede di fatturazione elettronica.</p>
+<p>L&#8217;esercente dovrà preparare la fattura in formato elettronico
+secondo il tracciato stabilito per la fatturazione elettronica verso
+la pubblica amministrazione (&#8220;Schema del file xml FatturaPA -
+versione 1.1&#8221; reperibile nel sito
+<a class="reference external" href="http://www.fatturapa.gov.it/">www.fatturapa.gov.it,</a> sezione
+Norme e regole, Documentazione FatturaPA).</p>
+<p>La valorizzazione degli elementi del tracciato xml dovrà rispettare
+i requisiti formali e di obbligatorietà previsti e, con particolare
+riferimento al blocco 2.2.1 &lt;DettaglioLinee&gt;, dovrà tener conto
+delle indicazioni riportate nel documento &#8220;<strong>Linee guida
+fatturazione esercente</strong>&#8221; disponibili nell&#8217;applicazione 18app.</p>
+</div>
+</div>
+<div class="section" id="allegato-1">
+<span id="id1"></span><h1>Allegato 1<a class="headerlink" href="#allegato-1" title="Link a questa intestazione">¶</a></h1>
+<p><strong>Allegato 1 – Specifica WS online</strong></p>
+<div class="section" id="servizio-web-per-verifica-voucher-degli-esercenti">
+<h2>Servizio Web per verifica voucher degli esercenti<a class="headerlink" href="#servizio-web-per-verifica-voucher-degli-esercenti" title="Link a questa intestazione">¶</a></h2>
+<p>Gli esercenti registrati al servizio &#8220;<strong>18app</strong>&#8221; per la vendita
+online potranno validare nei propri sistemi i voucher di acquisto di
+beni da parte dei 18enni utilizzando uno specifico servizio web di
+cui si forniscono di seguito le specifiche di utilizzo.</p>
+<p><strong>In merito agli endpoint, si precisa che al momento l&#8217;indirizzo referenziato nel wsdl</strong>
+(<a class="reference external" href="http://bonus.mibact.it/VerificaVoucher">http://bonus.mibact.it/VerificaVoucher</a>) <strong>è provvisorio.</strong></p>
+<p>Il servizio web di <strong>verifica del voucher</strong> da parte degli esercenti
+rende disponibili 2 principali operazioni (&#8220;<strong>Check</strong> &#8221; e
+&#8220;<strong>Confirm</strong>&#8221;). La seguente descrizione delle operazioni è
+necessaria per valorizzare adeguatamente i campi di input. Pertanto
+le operazioni esposte dall&#8217;interfaccia wsdl possono essere descritte
+come segue:</p>
+<p><strong>1. Check</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="21%" />
+<col width="44%" />
+<col width="34%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>INPUT:</td>
+<td>tipo operazione</td>
+<td><em>&#8220;1&#8221;, &#8220;2&#8221;</em></td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td>codice voucher</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>OUTPUT:</td>
+<td>nominativo
+beneficiario</td>
+<td><em>CF o Nome e
+Cognome</em></td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td>partita IVA esercente</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>ambito</td>
+<td><em>cinema, teatro,
+libreria…</em></td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td>bene</td>
+<td><em>libri,
+spettacoli…</em></td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>importo</td>
+<td><em>importo totale del
+voucher</em></td>
+</tr>
+</tbody>
+</table>
+<p>Se <strong>tipo operazione</strong> verrà valorizzato con <strong>&#8220;1&#8221;</strong>, il check del
+voucher restituirà all&#8217;esercente i campi previsti in output senza
+consumare il voucher e quindi senza scalare l&#8217;importo dal borsellino
+del beneficiario. Questa modalità di utilizzo dell&#8217;operazione non è
+obbligatoria, ma lascia all&#8217;esercente la possibilità di eseguire un
+controllo tra il nominativo del beneficiario e quello del suo
+cliente in sessione.</p>
+<p>Se <strong>tipo operazione</strong> verrà valorizzato con <strong>&#8220;2&#8221;</strong>, il check del
+voucher consumerà direttamente l&#8217;importo, scalandolo dal borsellino
+del beneficiario, e restituirà comunque le informazioni previste in
+output. L&#8217;esercente potrà scegliere di usare direttamente questa
+modalità oppure effettuare due chiamate successive: la prima per il
+controllo del beneficiario e la seconda per l&#8217;effettivo utilizzo del
+voucher.</p>
+<p>Il sequence diagram seguente descrive ad alto livello l&#8217;interazione
+tra i vari sistemi coinvolti, nei casi fin qui descritti:</p>
+<p><img alt="image0" src="_images/image1.png" /></p>
+<p><strong>2. Confirm</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="24%" />
+<col width="38%" />
+<col width="38%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>INPUT:</td>
+<td>tipo operazione</td>
+<td><em>&#8220;1&#8221;</em></td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td>codice voucher</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>importo</td>
+<td><em>confermato
+dall&#8217;esercente</em></td>
+</tr>
+<tr class="row-even"><td>OUTPUT:</td>
+<td>esito</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>In questa versione del servizio il <strong>tipo operazione</strong> verrà
+valorizzato sempre con <strong>&#8220;1&#8221;</strong> e l&#8217;esercente potrà comunicare la
+quota utilizzata rispetto all&#8217;importo totale del voucher,
+momentaneamente impegnato. Il sistema scalerà l&#8217;importo dal
+borsellino del beneficiario, riaccreditando la parte non utilizzata,
+calcolata come differenza tra il valore totale del voucher e
+l&#8217;importo comunicato dall&#8217;esercente.</p>
+<p>L&#8217;<strong>esito</strong> dell&#8217;operazione (<strong>&#8220;OK&#8221;</strong> / <strong>&#8220;KO&#8221;</strong>) sarà restituito
+all&#8217;esercente che potrà eventualmente fornire un feedback al
+beneficiario.</p>
+</div>
+<div class="section" id="modalita-di-autenticazione">
+<h2>Modalità di autenticazione<a class="headerlink" href="#modalita-di-autenticazione" title="Link a questa intestazione">¶</a></h2>
+<p>Per consumare il web service di verifica del voucher, ogni esercente
+dovrà essere dotato di un <strong>certificato di autenticazione</strong> da
+installare nel proprio client del servizio e da utilizzare nella
+chiamata SOAP per effettuare l&#8217;autenticazione in modalità SSL con
+certificato client.</p>
+<p>Tale certificato X509 sarà generabile e scaricabile in formato .cer
+direttamente tramite l&#8217;applicazione web dedicata agli esercenti, in
+area autenticata. In particolare il processo di generazione del
+certificato prevede due step:</p>
+<p>1. Il primo step di richiesta del certificato; a seguito di questa
+operazione il sistema prende in carico la richiesta.</p>
+<p>2. Il secondo step di verifica esito della richiesta; questa operazione
+controlla se è pronto il certificato emesso da CA dedicata ed
+eventualmente lo rende disponibile per il download.</p>
+<p>Durante il primo step sarà necessario caricare un file .der
+rappresentante la richiesta di certificato alla CA dedicata al
+progetto. Tale csr deve presentare le seguenti caratteristiche:</p>
+<ul class="simple">
+<li>Algoritmo generazione chiavi: RSA</li>
+<li>Lunghezza chiavi: 2048 bit</li>
+</ul>
+<p>Una volta scaricato il certificato X509 va installato, insieme alla
+corrispondente chiave privata, nel client utilizzato per il servizio
+di verifica voucher. Pertanto l&#8217;evento di download del certificato
+non può rappresentare la definitiva attivazione dell&#8217;esercente. E&#8217;
+stato previsto uno step di attivazione, di tipo &#8220;Check&#8221; con i
+seguenti valori di input:</p>
+<ul class="simple">
+<li>tipo operazione = 1</li>
+<li>codice voucher = 11aa22bb</li>
+</ul>
+<p>Questa operazione equivale ad una transazione di attivazione, il cui
+unico effetto è quello di portare l&#8217;esercente nello stato attivo. Da
+questo momento in poi i beneficiari potranno generare voucher reali
+per tale esercente.</p>
+<p>Endpoint del servizio</p>
+<p>Il servizio risponde ai seguenti endpoint
+<a class="reference external" href="https://wstest.18app.italia.it/VerificaVoucherWEB/VerificaVoucher">https://wstest.18app.italia.it/VerificaVoucherWEB/VerificaVoucher</a>
+(ambiente di prova)
+<a class="reference external" href="https://ws.18app.italia.it/VerificaVoucherWEB/VerificaVoucher">https://ws.18app.italia.it/VerificaVoucherWEB/VerificaVoucher</a>
+(ambiente reale)</p>
+</div>
+<div class="section" id="codici-di-errore">
+<h2>Codici di errore<a class="headerlink" href="#codici-di-errore" title="Link a questa intestazione">¶</a></h2>
+<p>La seguente tabella rappresenta i possibili errori gestiti dal
+sistema:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head"><strong>Codice/Code</strong></th>
+<th class="head"><strong>Descrizione/Description</strong></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>01</td>
+<td>Errore nel formato dei
+parametri in input,
+verificarli e riprovare</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>Error in the input
+parameters, check and try
+again</td>
+</tr>
+<tr class="row-even"><td>02</td>
+<td>Il buono richiesto non è
+disponibile sul sistema o è
+già stato riscosso o
+annullato</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>The requested voucher is not
+available on the system. It
+could be already collected or
+canceled</td>
+</tr>
+<tr class="row-even"><td>03</td>
+<td>Impossibile attivare
+l&#8217;esercente. Verificare che i
+dati siano corretti e che
+l&#8217;esercente non sia già stato
+attivato</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>Impossible to activate the
+user. Please verify input
+parameters and that the user
+has not been already
+activated.</td>
+</tr>
+<tr class="row-even"><td>04</td>
+<td>L&#8217;importo richiesto è
+superiore all&#8217;importo del
+buono selezionato</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>The amount claimed is greater
+than the amount of the
+selected voucher</td>
+</tr>
+<tr class="row-even"><td>05</td>
+<td>Non si può verificare o
+consumare il buono poichè
+l&#8217;esercente risulta non
+attivo</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>User inactive, voucher
+impossible to verify.</td>
+</tr>
+<tr class="row-even"><td>06</td>
+<td>Ambito e bene del buono non
+coincidono con ambiti e beni
+trattati dall&#8217;esercente</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>Category and type of this
+voucher are not aligned with
+category and type managed by
+the user.</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="image1" src="_images/image2.jpeg" /></p>
+</div>
+<div class="section" id="esempi-di-request-response">
+<h2>Esempi di request/response<a class="headerlink" href="#esempi-di-request-response" title="Link a questa intestazione">¶</a></h2>
+<p>Di seguito si riportano due esempi di request e relativa response,
+sia per l&#8217;operation &#8220;Check&#8221; che per l&#8217;operation &#8220;Confirm&#8221;.</p>
+<p>&#8220;Check&#8221;</p>
+<p>Check request:</p>
+<div class="highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;soapenv:Envelope</span>
+<span class="na">xmlns:soapenv=</span><span class="s">&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;</span>
+<span class="na">xmlns:ver=</span><span class="s">&quot;http://bonus.mibact.it/VerificaVoucher/&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;soapenv:Header/&gt;</span>
+<span class="nt">&lt;soapenv:Body&gt;</span>
+<span class="nt">&lt;ver:CheckRequestObj&gt;</span>
+<span class="nt">&lt;checkReq&gt;</span>
+<span class="nt">&lt;tipoOperazione&gt;</span>1<span class="nt">&lt;/tipoOperazione&gt;</span>
+<span class="nt">&lt;codiceVoucher&gt;</span>2a75f266<span class="nt">&lt;/codiceVoucher&gt;</span>
+<span class="c">&lt;!--Optional:</span>
+<span class="c">&lt;partitaIvaEsercente&gt;?&lt;/partitaIvaEsercente&gt;</span>
+<span class="c">--&gt;</span>
+<span class="nt">&lt;/checkReq&gt;</span>
+<span class="nt">&lt;/ver:CheckRequestObj&gt;</span>
+<span class="nt">&lt;/soapenv:Body&gt;</span>
+<span class="nt">&lt;/soapenv:Envelope&gt;</span>
+</pre></div>
+</div>
+<p>Check response:</p>
+<div class="highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;soapenv:Envelope</span>
+<span class="na">xmlns:soapenv=</span><span class="s">&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;soapenv:Body&gt;</span>
+<span class="nt">&lt;a:CheckResponseObj</span>
+<span class="na">xmlns:a=</span><span class="s">&quot;http://bonus.mibact.it/VerificaVoucher/&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;checkResp&gt;</span>
+<span class="nt">&lt;nominativoBeneficiario&gt;</span>AAABBB10X10X111D<span class="nt">&lt;/nominativoBeneficiario&gt;</span>
+<span class="nt">&lt;partitaIvaEsercente&gt;</span>01043931003<span class="nt">&lt;/partitaIvaEsercente&gt;</span>
+<span class="nt">&lt;ambito&gt;</span>Teatro<span class="nt">&lt;/ambito&gt;</span>
+<span class="nt">&lt;bene&gt;</span>Biglietti<span class="nt">&lt;/bene&gt;</span>
+<span class="nt">&lt;importo&gt;</span>40.5<span class="nt">&lt;/importo&gt;</span>
+<span class="nt">&lt;/checkResp&gt;</span>
+<span class="nt">&lt;/a:CheckResponseObj&gt;</span>
+<span class="nt">&lt;/soapenv:Body&gt;</span>
+<span class="nt">&lt;/soapenv:Envelope&gt;</span>
+</pre></div>
+</div>
+<p>&#8220;Confirm&#8221;</p>
+<p><img alt="image2" src="_images/image3.jpeg" /></p>
+<p>Confirm request:</p>
+<div class="highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;soapenv:Envelope</span>
+<span class="na">xmlns:soapenv=</span><span class="s">&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;</span>
+<span class="na">xmlns:ver=</span><span class="s">&quot;http://bonus.mibact.it/VerificaVoucher/&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;soapenv:Header/&gt;</span>
+<span class="nt">&lt;soapenv:Body&gt;</span>
+<span class="nt">&lt;ver:ConfirmRequestObj&gt;</span>
+<span class="nt">&lt;checkReq&gt;</span>
+<span class="nt">&lt;tipoOperazione&gt;</span>1<span class="nt">&lt;/tipoOperazione&gt;</span>
+<span class="nt">&lt;codiceVoucher&gt;</span>2a75f266<span class="nt">&lt;/codiceVoucher&gt;</span>
+<span class="nt">&lt;importo&gt;</span>30.20<span class="nt">&lt;/importo&gt;</span>
+<span class="nt">&lt;/checkReq&gt;</span>
+<span class="nt">&lt;/ver:ConfirmRequestObj&gt;</span>
+<span class="nt">&lt;/soapenv:Body&gt;</span>
+<span class="nt">&lt;/soapenv:Envelope&gt;</span>
+</pre></div>
+</div>
+<p>Confirm response:</p>
+<div class="highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;soapenv:Envelope</span>
+<span class="na">xmlns:soapenv=</span><span class="s">&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;soapenv:Body&gt;</span>
+<span class="nt">&lt;a:ConfirmResponseObj</span>
+<span class="na">xmlns:a=</span><span class="s">&quot;http://bonus.mibact.it/VerificaVoucher/&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;checkResp&gt;</span>
+<span class="nt">&lt;esito&gt;</span>OK<span class="nt">&lt;/esito&gt;</span>
+<span class="nt">&lt;/checkResp&gt;</span>
+<span class="nt">&lt;/a:ConfirmResponseObj&gt;</span>
+<span class="nt">&lt;/soapenv:Body&gt;</span>
+<span class="nt">&lt;/soapenv:Envelope&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="wsdl-verificavoucher-wsdl">
+<h2>WSDL VerificaVoucher.wsdl<a class="headerlink" href="#wsdl-verificavoucher-wsdl" title="Link a questa intestazione">¶</a></h2>
+<p>targetnamespace: <a class="reference external" href="http://bonus.mibact.it/VerificaVoucher/">**http://bonus.mibact.it/VerificaVoucher/**</a></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="19%" />
+<col width="23%" />
+<col width="19%" />
+<col width="19%" />
+<col width="22%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>services</td>
+<td>bindings</td>
+<td>porttypes</td>
+<td>messages</td>
+<td>types</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#verificavoucher">VerificaVoucher</a></td>
+<td><a class="reference internal" href="#verificavouchersoap">VerificaVoucherSOAP</a></td>
+<td><a class="reference internal" href="#verificavoucher">VerificaVoucher</a></td>
+<td><p class="first"><a class="reference internal" href="#checkrequest">CheckRequest</a></p>
+<p><a class="reference internal" href="#checkresponse">CheckResponse</a></p>
+<p><a class="reference internal" href="#confirmrequest">ConfirmRequest</a></p>
+<p class="last"><a class="reference internal" href="#confirmresponse">ConfirmResponse</a></p>
+</td>
+<td><p class="first"><a class="reference internal" href="#check">Check</a></p>
+<p><a class="reference internal" href="#checkrequestobj">CheckRequestObj</a></p>
+<p><a class="reference internal" href="#checkresponse">CheckResponse</a></p>
+<p><a class="reference internal" href="#checkresponseobj">CheckResponseObj</a></p>
+<p><a class="reference internal" href="#confirm">Confirm</a></p>
+<p><a class="reference internal" href="#confirmrequestobj">ConfirmRequestObj</a></p>
+<p><a class="reference internal" href="#confirmresponse">ConfirmResponse</a></p>
+<p class="last"><a class="reference internal" href="#confirmresponseobj">ConfirmResponseObj</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>attributeFormDefault:</p>
+<p>elementFormDefault:</p>
+<p>targetNamespace:        <a class="reference external" href="http://bonus.mibact.it/VerificaVoucher/">http://bonus.mibact.it/VerificaVoucher/</a></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="54%" />
+<col width="46%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Elements</td>
+<td>Complex types</td>
+</tr>
+<tr class="row-even"><td><p class="first"><a class="reference internal" href="#checkrequestobj">CheckRequestObj</a></p>
+<p><a class="reference internal" href="#checkresponseobj">CheckResponseObj</a></p>
+<p><a class="reference internal" href="#confirmrequestobj">ConfirmRequestObj</a></p>
+<p class="last"><a class="reference internal" href="#confirmresponseobj">ConfirmResponseObj</a></p>
+</td>
+<td><p class="first"><a class="reference internal" href="#check">Check</a></p>
+<p><a class="reference internal" href="#checkresponse">CheckResponse</a></p>
+<p><a class="reference internal" href="#confirm">Confirm</a></p>
+<p class="last"><a class="reference internal" href="#confirmresponse">ConfirmResponse</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="verificavoucher">service <strong>VerificaVoucher</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="7%" />
+<col width="93%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image4.png"><img alt="image4" src="_images/image4.png" style="width: 3.23748in; height: 0.49875in;" /></a></td>
+</tr>
+<tr class="row-even"><td>ports</td>
+<td><p class="first"><strong>VerificaVoucherSOAP</strong></p>
+<p><em>binding</em>        <strong>tns:VerificaVoucherSOAP</strong></p>
+<p class="last"><em>extensibility</em>  <code class="code docutils literal"><span class="pre">&lt;soap:address</span> <span class="pre">location=&quot;https://bonus.mibact.it/VerificaVoucherWEB/VerificaVoucher&quot;/&gt;</span></code></p>
+</td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;wsdl:service</span> <span class="na">name=</span><span class="s">&quot;VerificaVoucher&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;wsdl:port</span> <span class="na">name=</span><span class="s">&quot;VerificaVoucherSOAP&quot;</span> <span class="na">binding=</span><span class="s">&quot;tns:VerificaVoucherSOAP&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;soap:address</span>
+  <span class="na">location=</span><span class="s">&quot;https://bonus.mibact.it/VerificaVoucherWEB/VerificaVoucher&quot;</span><span class="nt">/&gt;</span>
+ <span class="nt">&lt;/wsdl:port&gt;</span>
+<span class="nt">&lt;/wsdl:service&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="verificavouchersoap">binding <strong>VerificaVoucherSOAP</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="13%" />
+<col width="87%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image5.png"><img alt="image5" src="_images/image5.png" style="width: 2.8175in; height: 2.26625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>tns:VerificaVoucher</strong></td>
+</tr>
+<tr class="row-odd"><td>extensibility</td>
+<td><code class="code docutils literal"><span class="pre">&lt;soap:binding</span> <span class="pre">style=&quot;document&quot;</span> <span class="pre">transport=&quot;http://schemas.xmlsoap.org/soap/http&quot;/&gt;</span></code></td>
+</tr>
+<tr class="row-even"><td>operations</td>
+<td><p class="first"><strong>Check</strong></p>
+<p><em>extensibility</em> <code class="code docutils literal"><span class="pre">&lt;soap:operation</span> <span class="pre">soapAction=&quot;http://bonus.mibact.it/VerificaVoucher/Check&quot;/&gt;</span></code></p>
+<p><em>input</em>         <code class="code docutils literal"><span class="pre">&lt;soap:body</span> <span class="pre">use=&quot;literal&quot;/&gt;</span></code></p>
+<p><em>output</em>        <code class="code docutils literal"><span class="pre">&lt;soap:body</span> <span class="pre">use=&quot;literal&quot;/&gt;</span></code></p>
+<p><strong>Confirm</strong></p>
+<p><em>extensibility</em> <code class="code docutils literal"><span class="pre">&lt;soap:operation</span> <span class="pre">soapAction=&quot;http://bonus.mibact.it/VerificaVoucher/Confirm&quot;/&gt;</span></code></p>
+<p><em>input</em> <code class="code docutils literal"><span class="pre">&lt;soap:body</span> <span class="pre">use=&quot;literal&quot;/&gt;</span></code></p>
+<p class="last"><em>output</em> <code class="code docutils literal"><span class="pre">&lt;soap:body</span> <span class="pre">use=&quot;literal&quot;/&gt;</span></code></p>
+</td>
+</tr>
+<tr class="row-odd"><td>used by</td>
+<td>Port <strong>VerificaVoucherSOAP</strong> in Service <strong>VerificaVoucher</strong></td>
+</tr>
+<tr class="row-even"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span> <span class="nt">&lt;wsdl:binding</span> <span class="na">name=</span><span class="s">&quot;VerificaVoucherSOAP&quot;</span> <span class="na">type=</span><span class="s">&quot;tns:VerificaVoucher&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;soap:binding</span> <span class="na">style=</span><span class="s">&quot;document&quot;</span> <span class="na">transport=</span><span class="s">&quot;http://schemas.xmlsoap.org/soap/http&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;wsdl:operation</span> <span class="na">name=</span><span class="s">&quot;Check&quot;</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;soap:operation</span> <span class="na">soapAction=</span><span class="s">`&quot;http://bonus.mibact.it/VerificaVoucher/Check&quot;/</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;wsdl:input&gt;</span>
+    <span class="nt">&lt;soap:body</span> <span class="na">use=</span><span class="s">&quot;literal&quot;</span><span class="nt">/&gt;</span>
+   <span class="nt">&lt;/wsdl:input&gt;</span>
+   <span class="nt">&lt;wsdl:output&gt;</span>
+    <span class="nt">&lt;soap:body</span> <span class="na">use=</span><span class="s">&quot;literal&quot;</span><span class="nt">/&gt;</span>
+   <span class="nt">&lt;/wsdl:output&gt;</span>
+  <span class="nt">&lt;/wsdl:operation&gt;</span>
+  <span class="nt">&lt;wsdl:operation</span> <span class="na">name=</span><span class="s">&quot;Confirm&quot;</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;soap:operation</span> <span class="na">soapAction=</span><span class="s">`&quot;http://bonus.mibact.it/VerificaVoucher/Confirm&quot;/</span><span class="nt">&gt;</span>
+   <span class="nt">&lt;wsdl:input&gt;</span>
+    <span class="nt">&lt;soap:body</span> <span class="na">use=</span><span class="s">&quot;literal&quot;</span><span class="nt">/&gt;</span>
+   <span class="nt">&lt;/wsdl:input&gt;</span>
+   <span class="nt">&lt;wsdl:output&gt;</span>
+    <span class="nt">&lt;soap:body</span> <span class="na">use=</span><span class="s">&quot;literal&quot;</span><span class="nt">/&gt;</span>
+   <span class="nt">&lt;/wsdl:output&gt;</span>
+ <span class="nt">&lt;/wsdl:operation&gt;</span>
+<span class="nt">&lt;/wsdl:binding&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>porttype <strong>VerificaVoucher</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image6.png"><img alt="image6" src="_images/image6.png" style="width: 2.8175in; height: 2.26625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>operations</td>
+<td><p class="first"><strong>Check</strong></p>
+<p><em>input</em> <strong>tns:CheckRequest</strong></p>
+<p><em>output</em> <strong>tns:CheckResponse</strong></p>
+<p><strong>Confirm</strong></p>
+<p><em>input</em> <strong>tns:ConfirmRequest</strong></p>
+<p class="last"><em>output</em> <strong>tns:ConfirmResponse</strong></p>
+</td>
+</tr>
+<tr class="row-odd"><td>used by</td>
+<td>binding <strong>VerificaVoucherSOAP</strong></td>
+</tr>
+<tr class="row-even"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;wsdl:portType</span> <span class="na">name=</span><span class="s">&quot;VerificaVoucher&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;wsdl:operation</span> <span class="na">name=</span><span class="s">&quot;Check&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;wsdl:input</span> <span class="na">message=</span><span class="s">&quot;tns:CheckRequest&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;wsdl:output</span> <span class="na">message=</span><span class="s">&quot;tns:CheckResponse&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/wsdl:operation&gt;</span>
+<span class="nt">&lt;wsdl:operation</span> <span class="na">name=</span><span class="s">&quot;Confirm&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;wsdl:input</span> <span class="na">message=</span><span class="s">&quot;tns:ConfirmRequest&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;wsdl:output</span> <span class="na">message=</span><span class="s">&quot;tns:ConfirmResponse&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/wsdl:operation&gt;</span>
+<span class="nt">&lt;/wsdl:portType&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="checkrequest">message <strong>CheckRequest</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="12%" />
+<col width="88%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>parts</td>
+<td><p class="first"><strong>parameters</strong></p>
+<p class="last"><em>element</em> <strong>tns:CheckRequestObj</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td>used by</td>
+<td>Operation
+<strong>Check</strong>
+in PortType
+<strong>VerificaVoucher</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;wsdl:message</span> <span class="na">name=</span><span class="s">&quot;CheckRequest&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;wsdl:part</span> <span class="na">name=</span><span class="s">&quot;parameters&quot;</span> <span class="na">element=</span><span class="s">&quot;tns:CheckRequestObj&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/wsdl:message&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="checkresponse">message <strong>CheckResponse</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="12%" />
+<col width="88%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>parts</td>
+<td><p class="first"><strong>parameters</strong></p>
+<p class="last"><em>element</em>
+<strong>tns:CheckResponseObj</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td>used by</td>
+<td>Operation
+<strong>Check</strong>
+in PortType
+<strong>VerificaVoucher</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;wsdl:message</span> <span class="na">name=</span><span class="s">&quot;CheckResponse&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;wsdl:part</span> <span class="na">name=</span><span class="s">&quot;parameters&quot;</span> <span class="na">element=</span><span class="s">&quot;tns:CheckResponseObj&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/wsdl:message&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="confirmrequest">message <strong>ConfirmRequest</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="12%" />
+<col width="88%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>parts</td>
+<td><p class="first"><strong>parameters</strong></p>
+<p class="last"><em>element</em>
+<strong>tns:ConfirmRequestObj</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td>used by</td>
+<td>Operation
+<strong>Check</strong>
+in PortType
+<strong>VerificaVoucher</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;wsdl:message</span> <span class="na">name=</span><span class="s">&quot;ConfirmRequest&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;wsdl:part</span> <span class="na">name=</span><span class="s">&quot;parameters&quot;</span> <span class="na">element=</span><span class="s">&quot;tns:ConfirmRequestObj&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/wsdl:message&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="confirmresponse">message <strong>ConfirmResponse</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="12%" />
+<col width="88%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>parts</td>
+<td><p class="first"><strong>parameters</strong></p>
+<p class="last"><em>element</em>
+<strong>tns:ConfirmResponseObj</strong></p>
+</td>
+</tr>
+<tr class="row-even"><td>used by</td>
+<td>Operation
+<strong>Check</strong>
+in PortType
+<strong>VerificaVoucher</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;wsdl:message</span> <span class="na">name=</span><span class="s">&quot;ConfirmResponse&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;wsdl:part</span> <span class="na">name=</span><span class="s">&quot;parameters&quot;</span> <span class="na">element=</span><span class="s">&quot;tns:ConfirmResponseObj&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/wsdl:message&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="checkrequestobj">element <strong>CheckRequestObj</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="18%" />
+<col width="82%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image7.png"><img alt="image7" src="_images/image7.png" style="width: 2.52in; height: 1.89in;" /></a></td>
+</tr>
+<tr class="row-even"><td>namespace</td>
+<td><a class="reference external" href="http://bonus.mibact.it/VerificaVoucher/">http://bonus.mibact.it/VerificaVoucher/</a></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content complex</td>
+</tr>
+<tr class="row-even"><td>children</td>
+<td><strong>checkReq</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;CheckRequestObj&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;xsd:complexType&gt;</span>
+  <span class="nt">&lt;xsd:sequence&gt;</span>
+   <span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;checkReq&quot;</span> <span class="na">type=</span><span class="s">&quot;tns:Check&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/xsd:sequence&gt;</span>
+ <span class="nt">&lt;/xsd:complexType&gt;</span>
+<span class="nt">&lt;/xsd:element&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>CheckRequestObj/checkReq</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="17%" />
+<col width="83%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image8.png"><img alt="image8" src="_images/image8.png" style="width: 2.52877in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>tns:Check</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content complex</td>
+</tr>
+<tr class="row-even"><td>children</td>
+<td><strong>tipoOperazione  codiceVoucher partitaIvaEsercente</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;checkReq&quot;</span> <span class="na">type=</span><span class="s">&quot;tns:Check&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="checkresponseobj">element <strong>CheckResponseObj</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="84%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image9.png"><img alt="image9" src="_images/image9.png" style="width: 2.67741in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>namespace</td>
+<td><a class="reference external" href="http://bonus.mibact.it/VerificaVoucher/">http://bonus.mibact.it/VerificaVoucher/</a></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content complex</td>
+</tr>
+<tr class="row-even"><td>children</td>
+<td><strong>checkResp</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;CheckResponseObj&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;xsd:complexType&gt;</span>
+  <span class="nt">&lt;xsd:sequence&gt;</span>
+   <span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;checkResp&quot;</span> <span class="na">type=</span><span class="s">&quot;tns:CheckResponse&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/xsd:sequence&gt;</span>
+ <span class="nt">&lt;/xsd:complexType&gt;</span>
+<span class="nt">&lt;/xsd:element&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>CheckResponseObj/checkResp</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="84%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image10.png"><img alt="image10" src="_images/image10.png" style="width: 3.08875in; height: 1.855in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>tns:CheckResponse</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content complex</td>
+</tr>
+<tr class="row-even"><td>children</td>
+<td><strong>nominativoBeneficiario
+partitaIvaEsercente
+ambito  bene
+importo</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;checkResp&quot;</span> <span class="na">type=</span><span class="s">&quot;tns:CheckResponse&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="confirmrequestobj">element <strong>ConfirmRequestObj</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="17%" />
+<col width="83%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image11.png"><img alt="image11" src="_images/image11.png" style="width: 2.61629in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>namespace</td>
+<td><a class="reference external" href="http://bonus.mibact.it/VerificaVoucher/">http://bonus.mibact.it/VerificaVoucher/</a></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content complex</td>
+</tr>
+<tr class="row-even"><td>children</td>
+<td><strong>checkReq</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;ConfirmRequestObj&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;xsd:complexType&gt;</span>
+  <span class="nt">&lt;xsd:sequence&gt;</span>
+   <span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;checkReq&quot;</span> <span class="na">type=</span><span class="s">&quot;tns:Confirm&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/xsd:sequence&gt;</span>
+ <span class="nt">&lt;/xsd:complexType&gt;</span>
+<span class="nt">&lt;/xsd:element&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>ConfirmRequestObj/checkReq</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="18%" />
+<col width="82%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image12.png"><img alt="image12" src="_images/image12.png" style="width: 2.65994in; height: 1.2775in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>tns:Confirm</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content complex</td>
+</tr>
+<tr class="row-even"><td>children</td>
+<td><strong>tipoOperazione  codiceVoucher  importo</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;checkReq&quot;</span> <span class="na">type=</span><span class="s">&quot;tns:Confirm&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="confirmresponseobj">element <strong>ConfirmResponseObj</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="85%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image13.png"><img alt="image13" src="_images/image13.png" style="width: 2.76493in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>namespace</td>
+<td><a class="reference external" href="http://bonus.mibact.it/VerificaVoucher/">http://bonus.mibact.it/VerificaVoucher/</a></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content complex</td>
+</tr>
+<tr class="row-even"><td>children</td>
+<td><strong>checkResp</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;ConfirmResponseObj&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;xsd:complexType&gt;</span>
+  <span class="nt">&lt;xsd:sequence&gt;</span>
+   <span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;checkResp&quot;</span> <span class="na">type=</span><span class="s">&quot;tns:ConfirmResponse&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/xsd:sequence&gt;</span>
+ <span class="nt">&lt;/xsd:complexType&gt;</span>
+<span class="nt">&lt;/xsd:element&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>ConfirmResponseObj/checkResp</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image14.png"><img alt="image14" src="_images/image14.png" style="width: 2.33625in; height: 0.7in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>tns:ConfirmResponse</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content complex</td>
+</tr>
+<tr class="row-even"><td>children</td>
+<td><strong>esito</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;checkResp&quot;</span> <span class="na">type=</span><span class="s">&quot;tns:ConfirmResponse&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="check">complexType <strong>Check</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="14%" />
+<col width="86%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image15.png"><img alt="image15" src="_images/image15.png" style="width: 2.46753in; height: 0.88375in;" /></a></td>
+</tr>
+<tr class="row-even"><td>namespace</td>
+<td><a class="reference external" href="http://bonus.mibact.it/VerificaVoucher/">http://bonus.mibact.it/VerificaVoucher/</a></td>
+</tr>
+<tr class="row-odd"><td>children</td>
+<td><strong>tipoOperazione
+codiceVoucher
+partitaIvaEsercente</strong></td>
+</tr>
+<tr class="row-even"><td>used by</td>
+<td>element
+<strong>CheckRequestObj/checkReq</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:complexType</span> <span class="na">name=</span><span class="s">&quot;Check&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;xsd:sequence&gt;</span>
+  <span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;tipoOperazione&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;codiceVoucher&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;partitaIvaEsercente&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;0&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+ <span class="nt">&lt;/xsd:sequence&gt;</span>
+<span class="nt">&lt;/xsd:complexType&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>Check/tipoOperazione</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="17%" />
+<col width="83%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image16.png"><img alt="image16" src="_images/image16.png" style="width: 1.08498in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>xsd:string</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content simple</td>
+</tr>
+<tr class="row-even"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;tipoOperazione&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>Check/codiceVoucher</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="17%" />
+<col width="83%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image17.png"><img alt="image17" src="_images/image17.png" style="width: 1.07624in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>xsd:string</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content simple</td>
+</tr>
+<tr class="row-even"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;codiceVoucher&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>Check/partitaIvaEsercente</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="84%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image18.png"><img alt="image18" src="_images/image18.png" style="width: 1.27748in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>xsd:string</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td><p class="first">minOcc 0</p>
+<p>maxOcc 1</p>
+<p class="last">content simple</p>
+</td>
+</tr>
+<tr class="row-even"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;partitaIvaEsercente&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;0&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>complexType <strong>CheckResponse</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="14%" />
+<col width="86%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image19.png"><img alt="image19" src="_images/image19.png" style="width: 3.1327in; height: 1.46125in;" /></a></td>
+</tr>
+<tr class="row-even"><td>namespace</td>
+<td><a class="reference external" href="http://bonus.mibact.it/VerificaVoucher/">http://bonus.mibact.it/VerificaVoucher/</a></td>
+</tr>
+<tr class="row-odd"><td>children</td>
+<td><strong>nominativoBeneficiario  partitaIvaEsercente  ambito  bene</strong></td>
+</tr>
+<tr class="row-even"><td>used by</td>
+<td>element
+<strong>CheckResponseObj/checkResp</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:complexType</span> <span class="na">name=</span><span class="s">&quot;CheckResponse&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;xsd:sequence&gt;</span>
+  <span class="nt">&lt;xsd:element</span>  <span class="na">name=</span><span class="s">&quot;nominativoBeneficiario&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;partitaIvaEsercente&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;ambito&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;bene&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;importo&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:double&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+ <span class="nt">&lt;/xsd:sequence&gt;</span>
+<span class="nt">&lt;/xsd:complexType&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>CheckResponse/nominativoBeneficiario</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="84%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image20.png"><img alt="image20" src="_images/image20.png" style="width: 1.45255in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>xsd:string</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content simple</td>
+</tr>
+<tr class="row-even"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;nominativoBeneficiario&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="partitaivaesercente">element <strong>CheckResponse/partitaIvaEsercente</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="84%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image21.png"><img alt="image21" src="_images/image21.png" style="width: 1.27748in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>xsd:string</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content simple</td>
+</tr>
+<tr class="row-even"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;partitaIvaEsercente&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>CheckResponse/ambito</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image22.png"><img alt="image22" src="_images/image22.png" style="width: 0.68249in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>xsd:string</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content simple</td>
+</tr>
+<tr class="row-even"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;ambito&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>CheckResponse/bene</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image23.png"><img alt="image23" src="_images/image23.png" style="width: 0.665in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>xsd:string</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content simple</td>
+</tr>
+<tr class="row-even"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;bene&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>CheckResponse/importo</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="19%" />
+<col width="81%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image24.png"><img alt="image24" src="_images/image24.png" style="width: 0.73499in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>xsd:double</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content simple</td>
+</tr>
+<tr class="row-even"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;importo&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:double&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p id="confirm">complexType <strong>Confirm</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="84%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image25.png"><img alt="image25" src="_images/image25.png" style="width: 2.3625in; height: 0.88375in;" /></a></td>
+</tr>
+<tr class="row-even"><td>namespace</td>
+<td><a class="reference external" href="http://bonus.mibact.it/VerificaVoucher/">http://bonus.mibact.it/VerificaVoucher/</a></td>
+</tr>
+<tr class="row-odd"><td>children</td>
+<td><strong>tipoOperazione  codiceVoucher  importo</strong></td>
+</tr>
+<tr class="row-even"><td>used by</td>
+<td>element <strong>ConfirmRequestObj/checkReq</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:complexType</span> <span class="na">name=</span><span class="s">&quot;Confirm&quot;</span><span class="nt">&gt;</span>
+ <span class="nt">&lt;xsd:sequence&gt;</span>
+  <span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;tipoOperazione&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;codiceVoucher&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;importo&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:double&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+ <span class="nt">&lt;/xsd:sequence&gt;</span>
+<span class="nt">&lt;/xsd:complexType&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>Confirm/tipoOperazione</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="17%" />
+<col width="83%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image16.png"><img alt="image16" src="_images/image16.png" style="width: 1.08498in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>xsd:string</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content simple</td>
+</tr>
+<tr class="row-even"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;tipoOperazione&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>Confirm/codiceVoucher</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="18%" />
+<col width="82%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image17.png"><img alt="image17" src="_images/image17.png" style="width: 1.07624in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>xsd:string</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content simple</td>
+</tr>
+<tr class="row-even"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;codiceVoucher&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>Confirm/importo</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="19%" />
+<col width="81%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image24.png"><img alt="image24" src="_images/image24.png" style="width: 0.73499in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>xsd:double</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content simple</td>
+</tr>
+<tr class="row-even"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;importo&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:double&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>complexType <strong>ConfirmResponse</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="18%" />
+<col width="82%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image26.png"><img alt="image26" src="_images/image26.png" style="width: 2.30997in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>namespace</td>
+<td><a class="reference external" href="http://bonus.mibact.it/VerificaVoucher/">http://bonus.mibact.it/VerificaVoucher/</a></td>
+</tr>
+<tr class="row-odd"><td>children</td>
+<td><strong>esito</strong></td>
+</tr>
+<tr class="row-even"><td>used by</td>
+<td>element
+<strong>ConfirmResponseObj/checkResp</strong></td>
+</tr>
+<tr class="row-odd"><td>source</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>element <strong>ConfirmResponse/esito</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>diagram</td>
+<td><a class="reference internal" href="_images/image27.png"><img alt="image27" src="_images/image27.png" style="width: 0.665in; height: 0.30625in;" /></a></td>
+</tr>
+<tr class="row-even"><td>type</td>
+<td><strong>xsd:string</strong></td>
+</tr>
+<tr class="row-odd"><td>properties</td>
+<td>content simple</td>
+</tr>
+<tr class="row-even"><td>source</td>
+<td><div class="first last highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;xsd:element</span> <span class="na">name=</span><span class="s">&quot;esito&quot;</span> <span class="na">type=</span><span class="s">&quot;xsd:string&quot;</span>
+<span class="na">minOccurs=</span><span class="s">&quot;1&quot;</span> <span class="na">maxOccurs=</span><span class="s">&quot;1&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+                        </div>
+                        <div class="articleComments">
+                            
+                        </div>
+                    </div>
+                    <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="linee-guida-fatturazione.html" class="btn float-right" title="Linee guida per la fatturazione" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="cond-gen-esercenti.html" class="btn" title="Condizioni d’uso" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, AgID - Team Digitale.
+      Ultimo aggiornamento 11/11/2017.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using the official <a href="https://github.com/italia/sphinx_italia_theme">Italia theme</a> based on the <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+    
+ 
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT: './',
+            VERSION: '1.0',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE: true,
+            SOURCELINK_SUFFIX: ''
+        };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>   
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+      
+    <script type="text/javascript">
+        jQuery(function() {
+            SphinxRtdTheme.StickyNav.enable();
+        });
+    </script>
+     
+
+</body>
+
+</html>
