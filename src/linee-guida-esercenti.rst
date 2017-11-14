@@ -189,8 +189,9 @@ fatturazione esercente**\ " disponibili nell'applicazione 18app.
 
 .. _Allegato 1:
 
+
 Allegato 1
-==========
+----------
 
 **Allegato 1 – Specifica WS online**
 
@@ -1236,78 +1237,78 @@ element **ConfirmResponse/esito**
 |            |    minOccurs="1" maxOccurs="1"/>               |
 +------------+------------------------------------------------+
 
-.. |image0| image:: img/esercenti/image1.png
-.. |image1| image:: img/esercenti/image2.jpeg
-.. |image2| image:: img/esercenti/image3.jpeg
-.. |image4| image:: img/esercenti/image4.png
+.. |image0| image:: _images/esercenti/image1.png
+.. |image1| image:: _images/esercenti/image2.jpeg
+.. |image2| image:: _images/esercenti/image3.jpeg
+.. |image4| image:: _images/esercenti/image4.png
    :width: 3.23748in
    :height: 0.49875in
-.. |image5| image:: img/esercenti/image5.png
+.. |image5| image:: _images/esercenti/image5.png
    :width: 2.8175in
    :height: 2.26625in
-.. |image6| image:: img/esercenti/image6.png
+.. |image6| image:: _images/esercenti/image6.png
    :width: 2.8175in
    :height: 2.26625in
-.. |image7| image:: img/esercenti/image7.png
+.. |image7| image:: _images/esercenti/image7.png
    :width: 2.52in
    :height: 1.89in
-.. |image8| image:: img/esercenti/image8.png
+.. |image8| image:: _images/esercenti/image8.png
    :width: 2.52877in
    :height: 0.30625in
-.. |image9| image:: img/esercenti/image9.png
+.. |image9| image:: _images/esercenti/image9.png
    :width: 2.67741in
    :height: 0.30625in
-.. |image10| image:: img/esercenti/image10.png
+.. |image10| image:: _images/esercenti/image10.png
    :width: 3.08875in
    :height: 1.855in
-.. |image11| image:: img/esercenti/image11.png
+.. |image11| image:: _images/esercenti/image11.png
    :width: 2.61629in
    :height: 0.30625in
-.. |image12| image:: img/esercenti/image12.png
+.. |image12| image:: _images/esercenti/image12.png
    :width: 2.65994in
    :height: 1.2775in
-.. |image13| image:: img/esercenti/image13.png
+.. |image13| image:: _images/esercenti/image13.png
    :width: 2.76493in
    :height: 0.30625in
-.. |image14| image:: img/esercenti/image14.png
+.. |image14| image:: _images/esercenti/image14.png
    :width: 2.33625in
    :height: 0.7in
-.. |image15| image:: img/esercenti/image15.png
+.. |image15| image:: _images/esercenti/image15.png
    :width: 2.46753in
    :height: 0.88375in
-.. |image16| image:: img/esercenti/image16.png
+.. |image16| image:: _images/esercenti/image16.png
    :width: 1.08498in
    :height: 0.30625in
-.. |image17| image:: img/esercenti/image17.png
+.. |image17| image:: _images/esercenti/image17.png
    :width: 1.07624in
    :height: 0.30625in
-.. |image18| image:: img/esercenti/image18.png
+.. |image18| image:: _images/esercenti/image18.png
    :width: 1.27748in
    :height: 0.30625in
-.. |image19| image:: img/esercenti/image19.png
+.. |image19| image:: _images/esercenti/image19.png
    :width: 3.1327in
    :height: 1.46125in
-.. |image20| image:: img/esercenti/image20.png
+.. |image20| image:: _images/esercenti/image20.png
    :width: 1.45255in
    :height: 0.30625in
-.. |image21| image:: img/esercenti/image21.png
+.. |image21| image:: _images/esercenti/image21.png
    :width: 1.27748in
    :height: 0.30625in
-.. |image22| image:: img/esercenti/image22.png
+.. |image22| image:: _images/esercenti/image22.png
    :width: 0.68249in
    :height: 0.30625in
-.. |image23| image:: img/esercenti/image23.png
+.. |image23| image:: _images/esercenti/image23.png
    :width: 0.665in
    :height: 0.30625in
-.. |image24| image:: img/esercenti/image24.png
+.. |image24| image:: _images/esercenti/image24.png
    :width: 0.73499in
    :height: 0.30625in
-.. |image25| image:: img/esercenti/image25.png
+.. |image25| image:: _images/esercenti/image25.png
    :width: 2.3625in
    :height: 0.88375in
-.. |image26| image:: img/esercenti/image26.png
+.. |image26| image:: _images/esercenti/image26.png
    :width: 2.30997in
    :height: 0.30625in
-.. |image27| image:: img/esercenti/image27.png
+.. |image27| image:: _images/esercenti/image27.png
    :width: 0.665in
    :height: 0.30625in

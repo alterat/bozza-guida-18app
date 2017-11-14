@@ -1,22 +1,13 @@
 |image0|
 
-###########
-Guida 18app
-###########
+###############################
+Guida a 18app per gli esercenti
+###############################
 
 
 Questo documento raccoglie le domande più frequenti e le procedure principali
 relative al servizio 18app. La documentazione originale può essere trovata
-all'indirizzo http://18app.italia.it
-
-Per i diciottenni
-=================
-
-.. toctree::
-   :maxdepth: 2
-
-   diciottenni.rst
-
+all'indirizzo http://18app.italia.it.
 
 Per gli esercenti
 =================
@@ -24,15 +15,14 @@ Per gli esercenti
 .. toctree::
    :maxdepth: 2
 
-   esercenti.rst
+   faq-esercenti.rst
 
-Informativa sulla privacy
-=========================
+   cond-gen-esercenti.rst
+        
+   linee-guida-esercenti.rst
 
-.. toctree::
-   :maxdepth: 1
+   linee-guida-fatturazione.rst
 
-   info-privacy.rst
 
 
 .. |image0| image:: _images/logo.png

@@ -1047,42 +1047,42 @@ indicazioni riportate nella tabella seguente:
 |                                    | beneficiario )           |                         |
 +------------------------------------+--------------------------+-------------------------+
 
-.. |image0| image:: img/fattura/image1.png
+.. |image0| image:: _images/fattura/image1.png
    :width: 6.37509in
    :height: 3.04792in
-.. |image1| image:: img/fattura/image2.png
+.. |image1| image:: _images/fattura/image2.png
    :width: 6.26532in
    :height: 0.24969in
-.. |image2| image:: img/fattura/image3.png
+.. |image2| image:: _images/fattura/image3.png
    :width: 6.15254in
    :height: 2.83771in
-.. |image3| image:: img/fattura/image4.png
+.. |image3| image:: _images/fattura/image4.png
    :width: 6.72788in
    :height: 2.66062in
-.. |image4| image:: img/fattura/image5.png
+.. |image4| image:: _images/fattura/image5.png
    :width: 6.34206in
    :height: 2.87083in
-.. |image5| image:: img/fattura/image6.png
+.. |image5| image:: _images/fattura/image6.png
    :width: 6.31661in
    :height: 2.03646in
-.. |image6| image:: img/fattura/image7.png
+.. |image6| image:: _images/fattura/image7.png
    :width: 5.54583in
    :height: 3.26653in
-.. |image7| image:: img/fattura/image8.png
+.. |image7| image:: _images/fattura/image8.png
    :width: 6.4197in
    :height: 4.80937in
-.. |image8| image:: img/fattura/image9.png
+.. |image8| image:: _images/fattura/image9.png
    :width: 6.43932in
    :height: 2.72708in
-.. |image9| image:: img/fattura/image10.png
+.. |image9| image:: _images/fattura/image10.png
    :width: 6.36253in
    :height: 4.29167in
-.. |image10| image:: img/fattura/image11.jpeg
+.. |image10| image:: _images/fattura/image11.jpeg
    :width: 6.40927in
    :height: 3.08729in
-.. |image11| image:: img/fattura/image12.png
+.. |image11| image:: _images/fattura/image12.png
    :width: 6.39227in
    :height: 2.27604in
-.. |image12| image:: img/fattura/image13.png
+.. |image12| image:: _images/fattura/image13.png
    :width: 5.15247in
    :height: 1.42708in
